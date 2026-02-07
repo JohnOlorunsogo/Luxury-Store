@@ -1,0 +1,136 @@
+import '../../models/product.dart';
+
+class MockData {
+  static List<Product> products = [
+    Product(
+      id: '1',
+      name: 'Luxury Chronograph',
+      description:
+          'A masterpiece of Swiss engineering, featuring a deep blue alligator strap and a rose gold case. Perfect for the modern gentleman who values precision and style.',
+      price: 12500.00,
+      imagePath: 'assets/images/luxury_watch_product_1770410834993.png',
+      category: ProductCategory.watches,
+      availableSizes: ['40mm', '42mm'],
+      availableColors: [0xFF000080, 0xFFB76E79],
+      rating: 4.9,
+      reviewCount: 128,
+    ),
+    Product(
+      id: '2',
+      name: 'Premium Leather Sneakers',
+      description:
+          'Handcrafted from the finest Italian calfskin, these minimalist white sneakers offer unparalleled comfort and a sleek silhouette for any occasion.',
+      price: 450.00,
+      imagePath: 'assets/images/premium_sneakers_product_1770410817041.png',
+      category: ProductCategory.sneakers,
+      availableSizes: ['40', '41', '42', '43', '44'],
+      availableColors: [0xFFFFFFFF, 0xFFE0E0E0],
+      rating: 4.7,
+      reviewCount: 256,
+    ),
+    Product(
+      id: '3',
+      name: 'Studio Wireless Pro',
+      description:
+          'Experience pure sound with active noise cancellation and 40 hours of battery life. These matte black headphones combine premium materials with cutting-edge audio tech.',
+      price: 349.99,
+      imagePath: 'assets/images/sleek_headphones_product_1770410854790.png',
+      category: ProductCategory.headphones,
+      availableSizes: ['One Size'],
+      availableColors: [0xFF000000, 0xFF333333],
+      rating: 4.8,
+      reviewCount: 512,
+    ),
+    Product(
+      id: '4',
+      name: 'Designer Heritage Bag',
+      description:
+          'An iconic silhouette in supple grained leather. featuring gold-toned hardware and a spacious interior for all your essentials.',
+      price: 2800.00,
+      imagePath: 'assets/images/designer_bag_product_1770410900250.png',
+      category: ProductCategory.bags,
+      availableSizes: ['Small', 'Medium'],
+      availableColors: [0xFF4E3629, 0xFF000000],
+      rating: 4.9,
+      reviewCount: 89,
+    ),
+    Product(
+      id: '5',
+      name: 'Diamond Elegance Watch',
+      description:
+          'A stunning timepiece with diamond-encrusted bezel and mother-of-pearl dial. The epitome of luxury for those who appreciate fine craftsmanship.',
+      price: 24999.00,
+      imagePath: 'assets/images/luxury_watch_product_1770410834993.png',
+      category: ProductCategory.watches,
+      availableSizes: ['36mm', '38mm'],
+      availableColors: [0xFFFFD700, 0xFFC0C0C0],
+      rating: 5.0,
+      reviewCount: 42,
+    ),
+    Product(
+      id: '6',
+      name: 'Urban Runner Pro',
+      description:
+          'Lightweight performance sneakers with responsive cushioning and breathable mesh upper. Perfect for the active luxury lifestyle.',
+      price: 320.00,
+      imagePath: 'assets/images/premium_sneakers_product_1770410817041.png',
+      category: ProductCategory.sneakers,
+      availableSizes: ['39', '40', '41', '42', '43', '44', '45'],
+      availableColors: [0xFF1A1A1A, 0xFFE8E8E8],
+      rating: 4.6,
+      reviewCount: 178,
+    ),
+    Product(
+      id: '7',
+      name: 'Elite Audio Buds',
+      description:
+          'True wireless earbuds with spatial audio and adaptive EQ. Crystal clear calls and immersive sound in a compact, elegant design.',
+      price: 279.00,
+      imagePath: 'assets/images/sleek_headphones_product_1770410854790.png',
+      category: ProductCategory.headphones,
+      availableSizes: ['One Size'],
+      availableColors: [0xFFFFFFFF, 0xFF1A1A1A],
+      rating: 4.5,
+      reviewCount: 634,
+    ),
+    Product(
+      id: '8',
+      name: 'Executive Briefcase',
+      description:
+          'Handcrafted Italian leather briefcase with laptop compartment and organizational pockets. The perfect companion for the discerning professional.',
+      price: 1250.00,
+      imagePath: 'assets/images/designer_bag_product_1770410900250.png',
+      category: ProductCategory.bags,
+      availableSizes: ['Standard'],
+      availableColors: [0xFF4E3629, 0xFF2C1810],
+      rating: 4.8,
+      reviewCount: 156,
+    ),
+    Product(
+      id: '9',
+      name: 'Aviator Titanium',
+      description:
+          'Lightweight titanium case with scratch-resistant sapphire crystal. Aviation-inspired design meets Swiss precision engineering.',
+      price: 8750.00,
+      imagePath: 'assets/images/luxury_watch_product_1770410834993.png',
+      category: ProductCategory.watches,
+      availableSizes: ['44mm', '46mm'],
+      availableColors: [0xFF2C3E50, 0xFFC0C0C0],
+      rating: 4.7,
+      reviewCount: 67,
+    ),
+    Product(
+      id: '10',
+      name: 'Classic Court Sneakers',
+      description:
+          'Timeless tennis-inspired design in premium full-grain leather. Clean lines and superior comfort for everyday elegance.',
+      price: 395.00,
+      imagePath: 'assets/images/premium_sneakers_product_1770410817041.png',
+      category: ProductCategory.sneakers,
+      availableSizes: ['40', '41', '42', '43', '44'],
+      availableColors: [0xFFFFFFFF, 0xFF0A2342],
+      rating: 4.8,
+      reviewCount: 312,
+    ),
+  ];
+}
