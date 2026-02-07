@@ -1,4 +1,4 @@
-# 🛍️ Luxury Store
+# Luxury Store
 
 A premium e-commerce Flutter app featuring modern UI design with glassmorphism effects, smooth animations, and responsive layouts.
 
